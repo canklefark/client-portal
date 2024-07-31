@@ -1,0 +1,4 @@
+/* The Box */
+.box {
+  padding: var(--padding, 1rem);
+}

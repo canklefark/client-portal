@@ -11,6 +11,22 @@ import '../styles/main.css';
     <title>Astro</title>
   </head>
   <body>
-    <slot />
+    <nav class="container">
+      <a href="/">Home</a>
+    </nav>
+    <main class="container">
+      <slot />
+    </main>
   </body>
 </html>
+
+<style>
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--size-fluid-3);
+    font-size: var(--font-size-3);
+    text-transform: uppercase;
+  }
+</style>

@@ -10,8 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.12.3",
     "@astrojs/check": "^0.8.3",
+    "@astrojs/svelte": "^5.7.0",
+    "astro": "^4.12.3",
+    "open-props": "^1.7.5",
+    "svelte": "^4.2.18",
     "typescript": "^5.5.4"
   }
 }
